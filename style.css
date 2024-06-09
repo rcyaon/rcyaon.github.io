@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 0;
+  font-family: inter;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: inter;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  main {
+    max-width: 95%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}html {
+  height: 100%;
+  width: 100%;
+}
