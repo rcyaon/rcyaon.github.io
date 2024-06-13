@@ -5,11 +5,13 @@ body {
   color: #333;
 }
 main {
-  max-width: 800px;
+  max-width: 600px;
   margin: 20px auto;
+  margin-top: 2%;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
 }
 
 section {
@@ -47,7 +49,8 @@ p {
   h1 {
     font-size: 2em;
   }
-}html {
+}
+html {
   height: 100%;
   width: 100%;
 }
