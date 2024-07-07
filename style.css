@@ -38,7 +38,7 @@ p {
 /* Responsive Design */
 @media (max-width: 600px) {
   main {
-    max-width: 80%;
+    max-width: 90%!important;
   }
 
   h1 {
