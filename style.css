@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  margin-left: 20%!important;
+  margin-left: 3%!important;
+  margin-top: 3%!important;
   color: #333;
 }
 
@@ -36,7 +37,7 @@ p {
 /* Responsive Design */
 @media (max-width: 600px) {
   main {
-    max-width: 50%;
+    max-width: 80%;
   }
 
   h1 {
