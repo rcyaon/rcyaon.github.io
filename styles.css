@@ -1,0 +1,75 @@
+/* minimal styles */
+body {
+    font-family: monospace;
+    line-height: 1.6;
+    color: #000;
+    background: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.ascii-art {
+    font-family: monospace;
+    font-size: 12px;
+    line-height: 1;
+    white-space: pre;
+    opacity: 0.8;
+}
+
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.visitor-counter {
+    font-size: 0.9em;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.caption {
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 0.9em;
+    opacity: 0.7;
+} 

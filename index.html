@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lena araujo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>my corner of the internet</h1>
+        </header>
+
+        <main>
+            <section class="intro">
+                <p>hey, i'm lena.</p>
+                <p>studying electrical engineering at cornell, with a passion for ham radio, circuits, and pcb design. electronics bring me joy!</p>
+                <p>i was also pressured to make a website.</p>
+                <div class="ascii-art">
+   |\---/|
+   | ,_, |
+    \_`_/-..----.
+ ___/ `   ' ,""+ \  
+(__...'   __\    |`.___.';
+  (_,...'(_,.`__)/'.....+
+                </div>
+                <p class="caption">by sk</p>
+            </section>
+
+            <section class="current">
+                <h2>currently</h2>
+                    <ul>
+                        <li>analog design @ a team building custom chips</li>
+                        <li>building quadcopters and creating curricula @ cornell motion studio</li>
+                        <li>ambassador @ mathworks</li>
+                    </ul>
+                <p>for fun, i play drums, read, rock climb, and <a href="https://letterboxd.com/rcyaon/">watch movies</a>.</p>
+            </section>
+
+            <!-- <section class="about">
+                <h2>disparate thoughts</h2>
+                <p>tbd</p>
+            </section> -->
+
+            <section class="things">
+                <h2>previously</h2>
+                <ul>
+                    <li>software development @ amazon</li>
+                    <li>ran hackathons @ amazon and futo with hack club teaching pcb design and programming cnc plotter bots</li>
+                    <li>won $300k+ in samsung's extrepeneurship competition and mentored students on hardware projects afterward</li>
+                </ul>
+            </section>
+
+            <section class="connect">
+                <h2>connect</h2>
+                <p><a href="mailto:lena.conde-araujo@csedge.org">email me</a></p>
+                <p><a href="https://www.linkedin.com/in/lena-conde-araujo/">linkedin</a></p>
+                <p><a href="https://curius.app/lena-araujo">rabbit holes</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>made with love</p>
+            <p class="visitor-counter">you are visitor #<span id="visitor-number">0</span></p>
+        </footer>
+    </div>
+
+    <script>
+        let visitorCount = localStorage.getItem('visitorCount') || 0;
+        visitorCount = parseInt(visitorCount) + 1;
+        localStorage.setItem('visitorCount', visitorCount);
+        document.getElementById('visitor-number').textContent = visitorCount;
+    </script>
+</body>
+</html> 
